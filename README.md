@@ -6,9 +6,8 @@
 
 ## ✨ Sobre o Projeto
 
-Este projeto é uma pipeline **ETL (Extract, Transform, Load)** focada em extrair dados da incrível API pública da franquia **The Legend of Zelda** 🗡️🎮.
+Este projeto é uma pipeline **ETL (Extract, Transform, Load)** focada em extrair dados da  API pública da franquia **The Legend of Zelda** 🗡️🎮.
 
-Como fã de Zelda, quis juntar duas paixões: minha admiração pelo universo épico dos jogos e meu interesse em engenharia de dados para criar um fluxo completo de dados, desde a coleta até o tratamento e armazenamento.
 
 ---
 
@@ -26,5 +25,5 @@ Como fã de Zelda, quis juntar duas paixões: minha admiração pelo universo é
 
 - **Python** — Linguagem principal para scripts ETL
 - **Requests** — Para consumir a API REST de Zelda
-- **Pandas** — Tratamento e manipulação dos dados
+- **Pyspark** — Tratamento e manipulação dos dados
 - **Git & GitHub** — Controle de versão e hospedagem do código
