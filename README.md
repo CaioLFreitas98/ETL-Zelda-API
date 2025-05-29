@@ -1,20 +1,30 @@
-Sobre o Projeto
-Este projeto é uma pipeline ETL (Extract, Transform, Load) que consome dados da API pública de The Legend of Zelda (Fan APIs - Zelda), processa e organiza essas informações para futuros estudos e análises.
+# ⚔️ ETL Zelda API - The Legend of Data Extraction ⚔️
 
-Escolhi essa API porque sou um grande fã da franquia Zelda e queria unir minha paixão por esse universo incrível com o aprendizado prático em engenharia de dados e integração de APIs.
+![Zelda Banner](https://upload.wikimedia.org/wikipedia/en/7/7f/The_Legend_of_Zelda_logo.svg)
 
-O que fazemos neste projeto
-Extract: coletamos dados da API oficial de Zelda, que inclui informações sobre jogos, personagens, itens, monstros, entre outros.
+---
 
-Transform: processamos os dados para deixá-los estruturados e adequados para análise, limpando e filtrando informações irrelevantes.
+## ✨ Sobre o Projeto
 
-Load: armazenamos os dados transformados em um banco de dados ou arquivo para uso posterior.
+Este projeto é uma pipeline **ETL (Extract, Transform, Load)** focada em extrair dados da incrível API pública da franquia **The Legend of Zelda** 🗡️🎮.
 
-Tecnologias Utilizadas
-Python: para scripts ETL, requests à API e manipulação de dados.
+Como fã de Zelda, quis juntar duas paixões: minha admiração pelo universo épico dos jogos e meu interesse em engenharia de dados para criar um fluxo completo de dados, desde a coleta até o tratamento e armazenamento.
 
-Requests: para fazer requisições HTTP à API de Zelda.
+---
 
-Pandas (ou similar): para tratamento e transformação dos dados.
+## 🚀 O que fazemos aqui?
 
-Git & GitHub: versionamento e hospedagem do código.
+| Etapa      | Descrição                                      |
+|------------|------------------------------------------------|
+| **Extract**  | Capturamos dados diversos da API oficial de Zelda, incluindo personagens, itens, monstros e muito mais. |
+| **Transform**| Tratamos e organizamos os dados para que fiquem limpos e úteis para análises futuras.                   |
+| **Load**     | Armazenamos os dados processados para que possam ser utilizados em projetos, visualizações ou estudos. |
+
+---
+
+## 🛠 Tecnologias
+
+- **Python** — Linguagem principal para scripts ETL
+- **Requests** — Para consumir a API REST de Zelda
+- **Pandas** — Tratamento e manipulação dos dados
+- **Git & GitHub** — Controle de versão e hospedagem do código
