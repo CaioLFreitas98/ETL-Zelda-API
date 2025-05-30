@@ -6,10 +6,6 @@ from time import sleep
 BASE_URL = "https://zelda.fanapis.com/api/"
 
 def fetch_all(endpoint: str, delay: float = 0.5):
-    """
-    Faz paginação automática de /api/{endpoint}?page=1,2,...
-    Combina todos os itens em uma lista e salva num único arquivo JSON.
-    """
     page = 1
     all_data = []
     
